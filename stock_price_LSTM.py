@@ -54,7 +54,7 @@ print(data_test.shape)
 
 scaler = MinMaxScaler(feature_range=(0, 1))
 
-model=load_model('D:/Projects/predict_price.h5')
+model=load_model('predict_price.h5')
 
 past_100_days=data_train.tail(100)
 #print(past_100_days)
