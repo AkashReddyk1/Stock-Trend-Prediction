@@ -4,5 +4,6 @@ matplotlib
 yfinance
 streamlit
 tensorflow
+keras
 scikit-learn
 datetime
